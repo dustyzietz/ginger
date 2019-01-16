@@ -1,0 +1,171 @@
+* {
+	margin: 0 ;
+	padding: 0;
+
+}
+body {
+	margin: 4vw;
+}
+.headwrap {
+	position: fixed;
+	background-color: white;
+	top: 0;
+}
+.a {
+	padding: 0;
+}
+.a img {
+	border-radius: 50%;
+margin-left: 30%;
+}
+.c {
+	margin-top: 30vw;
+}
+.button {
+	float: right;
+  display:block;
+  padding: 2% 3%;
+  font-size: 4vw;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+
+
+.button:hover {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.drop {
+	margin: 4vw 6vw;
+	letter-spacing: .25em;
+	position: relative;
+}
+.dropcontent {
+	position: absolute;
+	background-color: black;
+	color: white;
+	top: 12vw;
+	right: 0;
+	border-radius: 5%;
+	visibility: hidden;
+	opacity: 0;
+	transition: 1s;
+
+}
+.dropcontent a {
+	display: block;
+	padding: 2vw 5vw;
+	text-decoration: none;
+	color: white;
+	border-bottom: thin solid white;
+}
+.drop:hover .dropcontent {
+	visibility: visible;
+	opacity: 1;
+}
+
+.btext {
+	text-align: center;
+	font-size: 5vw;
+	padding: 2vw 0;
+}
+.stext {
+	text-align: center;
+	font-size: 2.5vw;
+
+}
+.link {
+	font-size: 5vw;
+	text-align: center;
+	margin: 2vw 2vw 4vw;
+	padding: 2vw 0;
+}
+.d span {
+	border-bottom: .2vw solid grey;
+
+}
+.link a {
+	text-decoration: none;
+	color: grey;
+}
+.link:hover a {
+	color: black;
+}
+.link:hover {
+	border: .2vw dashed rgb(255, 0, 255);
+}
+iframe {
+	border: none;
+	width:100%;
+}
+div.frame1 {
+	width: 92vw;
+	height: 92vw;
+	margin: auto;
+}
+
+div.frame2 {
+	width: 92vw;
+	height: 52vw;
+	margin: auto;
+	padding-bottom: 4vw;
+}
+.thumbnail a {
+	display : inline-block;
+	height: 15%;
+	width: 15%;
+	margin: 0 1.95%;
+	padding: 0;
+
+}
+.thumbnail img {
+		border-radius: 10%;
+		margin-bottom: 6vw;
+}
+.thumbnail img:hover {
+	box-shadow: 0 0 2vw 1vw rgb(255, 0, 255);
+}
+.f {
+
+	font-weight: bold;
+}
+.g {
+	border-bottom: .2vw dotted grey;
+	font-size: 3vw;
+		letter-spacing: .1em;
+}
+
+.icons a {
+	margin: 6.3%;
+}
+.icons img {
+	border-radius: 50%;
+}
+.icons img:hover {
+	box-shadow: 0 0 2vw 1vw rgb(255, 0, 255);
+}
+div.icons {
+	margin: 6vw 0;
+}
+.inputs {
+	text-align: center;
+}
+.inputs input {
+	padding: 2vw;
+	margin: 1vw;
+	font-size: 4vw;
+}
+.l {
+	display:block;
+	margin: 2vw auto 4vw;
+	float: none;
+}
